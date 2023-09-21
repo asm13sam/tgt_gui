@@ -1,7 +1,7 @@
 from PyQt5.QtCore import pyqtSignal
 
-from SearchListSelector import SearchListSelector
-from ComboBoxSelector import ComboBoxSelector
+from widgets.SearchListSelector import SearchListSelector
+from widgets.ComboBoxSelector import ComboBoxSelector
 
 # values is list of value dict with at least two fields 'name'
 class SearchCBListSelector(SearchListSelector):
